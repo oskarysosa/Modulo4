@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+}
+
+.header {
+  background-color: #ee1871;
+  width: 100%;
+  padding: 15px;
+  border-bottom: 1px solid lightgray;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.header_logo {
+  object-fit: cover;
+}
+
+.header_icons {
+  display: flex;
+}
+
+.icons {
+  margin-right: 15px;
+  color: whitesmoke;
+}
+
+.d-flex {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
