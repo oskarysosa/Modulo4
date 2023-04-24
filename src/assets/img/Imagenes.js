@@ -3,6 +3,7 @@ import Post2 from "./Post2.jpg";
 import Post3 from "./Post3.jpg";
 import Post4 from "./Post4.jpg";
 import Post5 from "./Post5.jpg";
+import PP from "./Profile.jpg";
 
 export default {
   p1: Post1,
@@ -10,4 +11,5 @@ export default {
   p3: Post3,
   p4: Post4,
   p5: Post5,
+  Profile: PP,
 };

@@ -1,0 +1,39 @@
+{
+  "public": [
+    {
+      "autor": "Okisita",
+      "createdAt": "new Date()",
+      "img": "Post2.jpg",
+      "comments": 14,
+      "text": "Monterrey. Ya quiero volver"
+    },
+    {
+      "autor": "Pamelita",
+      "createdAt": "new Date()",
+      "img": "Post1.jpg",
+      "comments": 5,
+      "text": "Un amanecer en el llano"
+    },
+    {
+      "autor": "Nico",
+      "createdAt": "new Date()",
+      "img": "Post3.jpg",
+      "comments": 8,
+      "text": "Este es mi lugar favorito"
+    },
+    {
+      "autor": "Sofi",
+      "createdAt": "new Date()",
+      "img": "Post4.jpg",
+      "comments": 10,
+      "text": "Jardin Botánico"
+    },
+    {
+      "autor": "Okisita",
+      "createdAt": "new Date()",
+      "img": "Post5.jpg",
+      "comments": 7,
+      "text": "Lago de Tota"
+    }
+  ]
+}
