@@ -1,6 +1,6 @@
 import Post from "./Posts";
 import { useState, useEffect } from "react";
-import { getPosts } from "../services/PostServices";
+import { GetPosts } from "../services/PostServices";
 
 //date, likes, autor, title, img, comments
 //Props: - posts  (object array)
@@ -10,7 +10,7 @@ function PostsList({ autor }) {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    getPosts().then((data) => {
+    GetPosts().then((data) => {
       setPosts(data);
     });
   }, []);

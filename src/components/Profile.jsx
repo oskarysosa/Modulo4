@@ -4,7 +4,7 @@ import "./post.css";
 import PropTypes from "prop-types";
 
 // props: - avatar (string) - username (string) - bio (string) // Listo
-function Profile(props) {
+export function Profile(props) {
   return (
     <div className="flex-column mx-auto">
       <div className="profile">
@@ -28,8 +28,6 @@ function Profile(props) {
     </div>
   );
 }
-
-export default Profile;
 
 Profile.propTypes = {
   avatar: PropTypes.string,
