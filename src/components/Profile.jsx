@@ -1,19 +1,19 @@
 import React from "react";
 import "./post.css";
-//Vericación de prop
 import PropTypes from "prop-types";
 
-// props: - avatar (string) - username (string) - bio (string) // Listo
 export function Profile(props) {
   return (
     <div className="flex-column mx-auto">
       <div className="profile">
         <div className="post_pic">
-          <img
-            className="profile-pic"
-            src={require(`./img/${props.avatar}`)}
-            alt="..."
-          />
+          {props.avatar && (
+            <img
+              className="profile-pic"
+              src={require(`./img/${props.avatar}`)}
+              alt="..."
+            />
+          )}
           <div className="profile-body">
             <p className="card-username">
               <strong> {props.username} </strong>{" "}

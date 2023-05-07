@@ -74,7 +74,7 @@ function Login({ changeAuth }) {
           id="btn"
           onClick={onLoginComplete}
           type="button"
-          className="btn btn-primary ms-5 me-5 mt-3"
+          className="btn btn-danger ms-5 me-5 mt-3"
         >
           Login
         </button>
